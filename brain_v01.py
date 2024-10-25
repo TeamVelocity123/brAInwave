@@ -20,7 +20,7 @@ text_gen_pipe = pipeline("text-generation", model="microsoft/phi-2")
 news_sentiment_pipe = pipeline("text-classification", model="mrm8488/deberta-v3-ft-financial-news-sentiment-analysis")
 
 # Alpha Vantage API setup
-API_KEY = '40HYVDQDMF3PJD01'  # Get free key from: https://www.alphavantage.co/support/#api-key
+API_KEY = '40HYVDQDMF3PJD01' 
 
 def get_stock_data(symbol):
     """
