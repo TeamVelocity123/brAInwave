@@ -13,16 +13,16 @@
 │   │
 │   ├───static
 │   │   ├───css
-│   │   │       trade1.css
+│   │   │       trade.css
 │   │   │       style.css
 │   │   │       
 │   │   │
 │   │   └───img
-│   │           bg.jpg
-│   │           Github.png
+│   │           link logo.png
+│   │           insta logo.png
 │   │
 │   └───templates
-│           trade.html
+│           trade1.html
 │           home.html
 │           
 │           
