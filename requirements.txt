@@ -1,0 +1,18 @@
+Ensures all necessary libraries are installed for the code to run properly.
+
+plaintext
+Copy code
+numpy==1.23.5
+pandas==1.5.3
+requests==2.31.0
+xgboost==1.7.6
+scikit-learn==1.2.2
+shap==0.41.0
+
+Explanation:
+numpy: For numerical operations.
+pandas: To handle and manipulate data frames.
+requests: For making API calls to Alpha Vantage and OnDemand services.
+xgboost: For building the XGBoost regression model.
+scikit-learn: For models like RandomForestRegressor and scalers.
+shap: For explainable AI (XAI) and feature impact interpretation.
