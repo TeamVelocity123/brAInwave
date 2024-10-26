@@ -1,0 +1,39 @@
+{% extends 'home.html' %}
+
+{% block header %}
+  <link href="{{ url_for('static', filename='css/trade.css') }}" rel="stylesheet">
+  
+{% endblock %}
+
+{% block content %}
+
+
+    
+    <nav class="navbar">
+        <div class="logo">VelocityAlgo</div>
+        <ul>
+            <li></li>
+            <li><a href="{{ url_for('main.home') }}">Home</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#points">Points</a></li>
+            <li><a href="{{ url_for('main.trade1') }}">Trade</a></li>
+            <li><a href="#get-started" class="get-started">Get Started</a></li>
+        </ul>
+        
+    </nav>
+
+    <!-- <div class="content"style="font-size: 35px;"> -->
+        <!-- <h1>Look first/<br>Then Leap.</h1> -->
+    <div class="left-content">
+        <ul>
+            <button><li><a href="">Nifty 50</a></li></button>
+            <button><li><a href="">Bank Nifty</a></li></button>
+            <button><li><a href="">Fin Nifty</a></li></button>
+        </ul>
+    </div>
+    </div>
+    
+    
+    </html>
+    
+{% endblock %}
