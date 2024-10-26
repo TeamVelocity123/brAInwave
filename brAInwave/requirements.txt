@@ -1,9 +1,0 @@
-eventlet
-flask
-flask-socketio
-pypdf2
-pyttsx3
-textstat
-torch
-transformers
-werkzeug
